@@ -147,3 +147,94 @@ body {
         font-size: 0.8em;
     }
 }
+
+
+.Cactusl-footer {
+    background-color: #12343b;
+    color: #fff;
+  }
+  
+  .Cactusl-footer-16 {
+    padding: 50px 0;
+  }
+  
+  .footer-p {
+    justify-content: space-between;
+  }
+  
+  .footerCactusl-logo {
+    margin-bottom: 20px;
+  }
+  
+  .social li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social li a {
+    color: #fff;
+    font-size: 20px;
+  }
+  
+  .footer-gd-16 li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-gd-16 li a {
+    color: #eee;
+    font-size: 16px;
+  }
+  
+  .Cactusindta-grid {
+    padding: 2px;
+  }
+  
+  .radius-image {
+    border-radius: 5px;
+  }
+  
+  .copy-text a {
+    color: #fff;
+  }
+  
+  .copy-text a:hover {
+    text-decoration: underline;
+  }
+  
+  .below-section {
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    padding-top: 30px;
+    margin-top: 30px;
+  }
+  
+  .footer-gd-16 li:not(:last-child)::after {
+    content: "/";
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #eee;
+  }
+  
+  @media (max-width: 767px) {
+    .footer-p {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .right-side {
+      margin-top: 30px;
+    }
+  
+    .columns-2 {
+      margin-top: 20px;
+    }
+  
+    .footer-gd-16 li {
+      margin-bottom: 8px;
+    }
+  
+    .Cactusindta-grid {
+      margin-top: 10px;
+    }
+  }
+  

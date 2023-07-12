@@ -11,22 +11,25 @@
     font-family: "Poppins", sans-serif;
   }
   .navbar {
-    background-color: #fafafa;
+    background-color:transparent;
     height: 60px;
   }
   
   /* Customize the navbar brand (logo) */
   .navbar-brand {
-    color: #010101;
+    color: #fff6f6;
     font-size: 24px;
     margin-right: 50px; /* Adjust the spacing as needed */
+    font-weight: 700;
   }
   
   /* Customize the navbar links */
   .navbar-nav .nav-link {
-    color: #000000;
+    color: #ffffff;
     font-size: 18px;
-    margin: 0 10px; /* Adjust the spacing as needed */
+    margin: 0 5px; /* Adjust the spacing as needed */
+    font-weight: bolder;
+    text-decoration: underline;
   }
 
   .navbar-nav .nav-link:hover {
@@ -36,10 +39,10 @@
   
   /* Customize the active link */
   .navbar-nav .nav-link.active {
-    color: #1d0000;
+    color: #ffffff;
   }
   .navbar-nav .nav-link.active :hover{
-    color-scheme:#0152a8 !important;
+    color-scheme:aqua !important;
   }
 /* Customize the search button */
 .navbar .btn-outline-success {
@@ -50,7 +53,7 @@
   
   /* Add snake glow effect to the search button */
   .navbar .btn-outline-success:hover {
-    color: #000000;
+    color: #1009c7;
     animation: snake-glow 1.5s infinite;
   }
   .logo-image {
@@ -122,4 +125,115 @@
     line-height: 1.5;
     font-weight: 400;
   }
+  
+
+
+  .Cactusl-footer {
+    background-color: #12343b;
+    color: #fff;
+  }
+  
+  .Cactusl-footer-16 {
+    padding: 50px 0;
+  }
+  
+  .footer-p {
+    justify-content: space-between;
+  }
+  
+  .footerCactusl-logo {
+    margin-bottom: 20px;
+  }
+  
+  .footer-gd-16 li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-gd-16 li a {
+    color: #eee;
+    font-size: 16px;
+  }
+  
+  .Cactusindta-grid {
+    padding: 2px;
+  }
+  
+  .radius-image {
+    border-radius: 5px;
+  }
+  
+  .copy-text a {
+    color: #fff;
+  }
+  
+  .copy-text a:hover {
+    text-decoration: underline;
+  }
+  
+  .below-section {
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    padding-top: 30px;
+    margin-top: 30px;
+  }
+  
+  .footer-gd-16 li:not(:last-child)::after {
+    content: "/";
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #eee;
+  }
+  
+  @media (max-width: 767px) {
+    .footer-p {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .right-side {
+      margin-top: 30px;
+    }
+  
+    .columns-2 {
+      margin-top: 20px;
+    }
+  
+    .footer-gd-16 li {
+      margin-bottom: 8px;
+    }
+  
+    .Cactusindta-grid {
+      margin-top: 10px;
+    }
+  }
+  
+.Cactusl-footer-16 ul.social li,
+.Cactusl-footer-16 ul.jst-link li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.Cactusl-footer-16 ul.social li a {
+    color: #574ac0;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 25px;
+    width: 44px;
+    height: 44px;
+    cursor: pointer;
+    background: #000000;
+    line-height: 44px;
+}
+
+.Cactusl-footer-16 ul.social li:last-child a {
+    margin-right: 0px;
+}
+
+.Cactusl-footer-16 ul.social li a:hover {
+    background: rgb(10, 10, 10);
+    color: #f3f3f3;
+    transition: 0.3s ease-in-out;
+}
+
   
